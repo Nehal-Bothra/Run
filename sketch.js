@@ -10,7 +10,7 @@ var ground, invisibleGround, groundImage;
 var gameOverImg,restartImg
 
 function preload(){
-    treeImage = loadImage("tree.png");
+    treeImage = loadImage("Tree.png");
     groundImage = loadImage("ground.png");
     runner_running = loadAnimation("runner1.png","runner2.png");
     runner_collided = loadAnimation("runner3.png")
